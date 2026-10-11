@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历 | My Resume</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <!-- 头部个人信息 -->
+    <header class="header">
+        <h1>张三</h1>
+        <p class="job-title">大数据开发工程师</p>
+        <div class="contact">
+            <span>📱 电话：138-xxxx-xxxx</span>
+            <span>📧 邮箱：example@qq.com</span>
+            <span>💻 GitHub：<a href="https://github.com/hjk051202" target="_blank">github.com/hjk051202</a></span>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>🎯 教育背景</h2>
+        <div class="item">
+            <div class="item-left">
+                <strong>XX学校 | 计算机科学与技术</strong>
+            </div>
+            <div class="item-right">2021.09-2025.06</div>
+        </div>
+        <p>本科，主修课程：大数据技术、数据库原理、Java程序设计、计算机网络等。</p>
+    </section>
+
+    <section class="section">
+        <h2>🛠️ 专业技能</h2>
+        <ul class="skill-list">
+            <li>熟悉 Linux CentOS7 操作系统命令，会搭建Hadoop集群、Zookeeper、HBase环境</li>
+            <li>掌握 HDFS、YARN、MapReduce 编程，了解大数据离线数据分析流程</li>
+            <li>Java基础扎实，能够编写MR自定义Writable序列化类，处理csv业务数据</li>
+            <li>掌握 Maven项目打包，jar包提交YARN运行，看懂任务运行日志</li>
+            <li>了解Git、GitHub基本操作，能够使用GitHub Pages部署静态网页</li>
+            <li>熟悉MySQL基础SQL，掌握数据表查询、聚合统计</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>📁 项目经验</h2>
+        <div class="project-item">
+            <h3>大数据销售数据分析项目</h3>
+            <div class="time">2026-09 ~ 2026-10</div>
+            <ul>
+                <li>搭建Hadoop三节点分布式集群，完成JDK、Hadoop、Zookeeper、HBase安装配置。</li>
+                <li>使用MapReduce开发离线分析程序，读取HDFS上sales.csv销售业务数据。</li>
+                <li>自定义Writable序列化实体类，Mapper解析csv文本，Reducer实现销售笔数、销售总额按年份聚合统计。</li>
+                <li>Maven打包jar，提交任务到YARN运行，读取输出结果完成业务统计。</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>📝 自我评价</h2>
+        <p>对大数据开发有浓厚兴趣，熟悉Hadoop生态组件基础使用；动手能力较强，能够独立完成集群部署与简单MR开发；善于查阅文档解决实验中遇到的问题，有良好学习能力。</p>
+    </section>
+
+    <footer>
+        <p>本简历部署于 GitHub Pages，更新时间：2026-10</p>
+    </footer>
+</div>
+</body>
+</html>
 
